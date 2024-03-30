@@ -1,0 +1,117 @@
+body {
+    font-family:  'Helvetica';
+    background: url("https://images.unsplash.com/photo-1515847049296-a281d6401047?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top, #e6e5e5 0%, #ecf0f5 100%);
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgb(4, 255, 213); /* Initial shadow */
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); /* Final shadow */
+    }
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: #466d6f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background-color: rgb(9, 165, 139);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(23, 107, 93);
+}
+.task-list {
+    margin-top: 20px;
+}
+.task-item {
+    background-color: #f2f2f2;
+    padding: 14px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task-item button {
+    float: right;
+    margin: -8.2px;
+}
+.low {
+    border-left: 6px solid #3498db;
+}
+.medium {
+    border-left: 6px solid #f39c12;
+}
+.high {
+    border-left: 6px solid #e74c3c;
+} 
+
+.filter-section select,
+.filter-section button {
+    display: block;
+    width: 48%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.filter-section button {
+    width: calc(50% - 2px);
+    float: right;
+}
+
+@media (max-width: 768px) {
+    input[type="text"],
+    select,
+    button {
+        width: 100%;
+    }
+
+    .filter-section select,
+    .filter-section button {
+        width: 100%;
+        float: none;
+    }
+
+    .filter-section button {
+        width: 100%;
+    }
+}
+
+
+
+ 

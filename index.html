@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    <h1>  TO DO LIST  </h1>
+    <input type="text" id="taskInput" placeholder="Enter a task...">
+    <select id="priority">
+        <option value="low">Low Priority</option>
+        <option value="medium">Medium Priority</option>
+        <option value="high">High Priority</option>
+    </select>
+    <button onclick="addTask()">Add Task</button>
+    <div class="task-list" id="taskList"></div>
+    <h2>Filter Tasks</h2>
+    <select id="filterPriority">
+        <option value="all">All</option>
+        <option value="low">Low Priority</option>
+        <option value="medium">Medium Priority</option>
+        <option value="high">High Priority</option>
+    </select>
+    <button onclick="filterTasks()">Filter</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
