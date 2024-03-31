@@ -1,5 +1,5 @@
 **To-Do List Web Application**<br>
-##__This is a simple To-Do List web application that allows users to easily create, manage, and organize their daily tasks. With a clean and intuitive interface, this application simplifies task management and provides a convenient way to track and prioritize tasks.__
+__##This is a simple To-Do List web application that allows users to easily create, manage, and organize their daily tasks. With a clean and intuitive interface, this application simplifies task management and provides a convenient way to track and prioritize tasks.__
 
 ###Features
 1. Add Tasks: Easily add new tasks to your to-do list.
