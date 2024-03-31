@@ -1,4 +1,4 @@
-**To-Do List Web Application**<br>
+**To-Do List Web Application**<br><br>
 __This is a simple To-Do List web application that allows users to easily create, manage, and organize their daily tasks. With a clean and intuitive interface, this application simplifies task management and provides a convenient way to track and prioritize tasks.__<br>
 
 __Features__<br>
@@ -34,7 +34,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 __License__<br>
 This project is licensed under the MIT License - see the LICENSE file for details.<br>
 
-Feel free to customize this README template according to your project's specific details and requirements. Add any additional information or sections that you think would be helpful for users or contributors.
+**Feel free to customize this README template according to your project's specific details and requirements. Add any additional information or sections that you think would be helpful for users or contributors.**
 
 
 
